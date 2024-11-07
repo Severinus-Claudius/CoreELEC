@@ -27,6 +27,7 @@ case "$LINUX" in
     ;;
 esac
 
+
 PKG_KERNEL_CFG_FILE=$(kernel_config_path) || die
 
 if [ -n "$KERNEL_TOOLCHAIN" ]; then
